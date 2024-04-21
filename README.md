@@ -1,0 +1,1 @@
+New edition of my personal website, which serves as an information hub about me.
