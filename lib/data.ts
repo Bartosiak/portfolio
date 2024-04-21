@@ -27,7 +27,16 @@ export const links = [
 
 
 export const projectsData = [
-    {
+  {
+    title: "School admin panel",
+    description:
+      "Panel responsible for managing the system in schools. It offers many possibilities, including displaying the timetable, substitutions, and important announcements. Additionally, this project is continuously developed in collaboration with other programmers, allowing me to enhance my programming skills through teamwork and collaboration",
+    tags: ["React", "Node", "Express", "Next.js", "Sass", "MySQl", "Sequelize"],
+    imageUrl: adminpanelImg,
+    website: "",
+    repository: "https://github.com/PanDamax01/admin-panel-express-baza-sql"
+  },
+  {
     title: "Online tennis shop",
     description:
       "Throughout the development of my project, I acquired valuable skills and knowledge. I mastered the implementation of Multer for efficient file uploads, gained expertise in managing user roles and tokens, and honed my ability to utilize context for streamlined cart state management. These experiences reflect my dedication to continuous learning and skill enhancement.",
@@ -46,14 +55,6 @@ export const projectsData = [
     website: "https://crm.damianbartosiak.dev/",
     repository: "https://github.com/bartosiak/crm-backend",
   },
-  {
-    title: "School admin panel",
-    description:
-      "Panel responsible for managing the system in schools. It offers many possibilities, including displaying the timetable, substitutions, and important announcements. Additionally, this project is continuously developed in collaboration with other programmers, allowing me to enhance my programming skills through teamwork and collaboration",
-    tags: ["React", "Node", "Express", "Next.js", "Sass", "MySQl", "Sequelize"],
-    imageUrl: adminpanelImg,
-    repository: "https://github.com/PanDamax01/admin-panel-express-baza-sql"
-  }
 ] as const;
 
 export const skillsData = [
