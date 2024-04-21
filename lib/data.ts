@@ -43,7 +43,7 @@ export const projectsData = [
       "The project is a CRM system that enables user registration and login functionalities. Upon logging in, users can seamlessly add new contacts and efficiently manage them by scheduling meetings, sending emails, and making phone calls. Additionally, I gained valuable insights into creating APIs and establishing references within MongoDB database, facilitating seamless data management and enhancing my proficiency in backend development.",
     tags: ["React", "Bootstrap", "Node", "Express", "MongoDB" ],
     imageUrl: crmImg,
-    website: "https://crm.damianbartosiak.dev/"
+    website: "https://crm.damianbartosiak.dev/",
     repository: "https://github.com/bartosiak/crm-backend",
   },
   {
